@@ -12,22 +12,22 @@ This bundle depends on
 * `vich/uploader-bundle` ( for traits with files) -> Caution this bundle is not included in dependencies to not force users that don't need it. 
 
 ## List of traits
-* GenderTrait -> for gender Mr, Mrs, Mister, etc.
-* IdTrait -> for id
-* UuidTrait -> for uuid field (use ramsey/uuid-doctrine)
-* IsActiveTrait -> for a boolean active/inactive
-* IsEnabledTrait -> for a boolean enabled/disabled
-* LabelTrait -> for classic label
-* NameTrait -> for classic fields firstname & lastname
-* IntegerNumberTrait -> for a int number field
-* FloatNumberTrait -> for a float number field
-* TitleTrait -> for classic title field
-* TypeTrait -> for classic type
-* YearTrait -> for year field
-* VichUploaderFileTrait -> for a file with its upload (use VichUploaderBundle)
-* VichUploaderImageTrait -> for a image file with its upload (use VichUploaderBundle)
-* SingleImageFileUploadTrait -> Same but if you don't want to use VichUploaderBundle.
-* SingleFileUploadTrait -> Same but if you don't want to use VichUploaderBundle.
+* `GenderTrait` -> for gender Mr, Mrs, Mister, etc.
+* `IdTrait` -> for id
+* `UuidTrait` -> for uuid field (use ramsey/uuid-doctrine)
+* `IsActiveTrait` -> for a boolean active/inactive
+* `IsEnabledTrait` -> for a boolean enabled/disabled
+* `LabelTrait` -> for classic label
+* `NameTrait` -> for classic fields firstname & lastname
+* `IntegerNumberTrait` -> for a int number field
+* `FloatNumberTrait` -> for a float number field
+* `TitleTrait` -> for classic title field
+* `TypeTrait` -> for classic type
+* `YearTrait` -> for year field
+* `VichUploaderFileTrait` -> for a file with its upload (use VichUploaderBundle)
+* `VichUploaderImageTrait` -> for a image file with its upload (use VichUploaderBundle)
+* `SingleImageFileUploadTrait` -> Same but if you don't want to use VichUploaderBundle.
+* `SingleFileUploadTrait` -> Same but if you don't want to use VichUploaderBundle.
 
 ## Share yours
 Feel free to share yours to add its in this bundle :)
