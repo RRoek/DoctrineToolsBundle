@@ -1,0 +1,29 @@
+{
+    "name": "rroek/doctrine-tools-bundle",
+    "description": "A small bundle that give you some class & traits to faster make yours entities",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rroek",
+            "email": "0rroek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/orm": "^2.5",
+        "symfony/validator": "^4.1",
+        "stof/doctrine-extensions-bundle": "^1.2",
+        "gedmo/doctrine-extensions": "^2.4",
+        "ramsey/uuid-doctrine": "^1.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "RRoek\\DoctrineToolsBundle\\": "src/RRoek/DoctrineToolsBundle"
+        }
+    }
+}
