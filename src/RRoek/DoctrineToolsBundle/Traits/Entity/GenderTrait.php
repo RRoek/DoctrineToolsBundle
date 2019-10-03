@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits\Entity;
+namespace RRoek\DoctrineToolsBundle\Traits\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
