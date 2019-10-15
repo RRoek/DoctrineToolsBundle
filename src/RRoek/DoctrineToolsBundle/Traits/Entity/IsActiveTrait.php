@@ -19,13 +19,15 @@ trait IsActiveTrait
 
     //---- --- Getters & Setters : --- ----
 
-    public function isActive()
+    public function isActive(): bool
     {
         return $this->isActive;
     }
 
-    public function setIsActive()
+    public function setIsActive(bool $isActive): self
     {
-        return $this->isActive;
+        $this->isActive = $isActive;
+
+        return $this;
     }
 }

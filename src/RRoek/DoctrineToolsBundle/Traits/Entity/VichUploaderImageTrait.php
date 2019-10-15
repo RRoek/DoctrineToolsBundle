@@ -17,7 +17,7 @@ trait VichUploaderImageTrait
     /**
      * @Vich\UploadableField(mapping="uploaded_images", fileNameProperty="image")
      * @var File
-     * @Assert\File()
+     * @Assert\Image()
      */
     private $imageFile;//stores the binary contents of the image file and it's not persisted in the database (that's why it doesn't define a @ORM annotation).
 

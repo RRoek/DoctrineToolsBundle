@@ -19,13 +19,15 @@ trait IsEnabledTrait
 
     //---- --- Getters & Setters : --- ----
 
-    public function isEnabled()
+    public function isEnabled(): bool
     {
         return $this->isEnabled;
     }
 
-    public function setIsEnabled()
+    public function setIsEnabled(bool $isEnabled): self
     {
-        return $this->isEnabled;
+        $this->isEnabled = $isEnabled;
+
+        return $this;
     }
 }
