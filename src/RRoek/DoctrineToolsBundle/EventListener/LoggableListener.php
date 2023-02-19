@@ -2,7 +2,7 @@
 
 namespace RRoek\DoctrineToolsBundle\EventListener;
 
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Gedmo\Loggable\LoggableListener as GedmoListener;
 
 class LoggableListener extends GedmoListener
