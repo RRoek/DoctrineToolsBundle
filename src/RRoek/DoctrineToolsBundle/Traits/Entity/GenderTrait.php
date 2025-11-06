@@ -10,12 +10,10 @@ use Doctrine\ORM\Mapping as ORM;
 trait GenderTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
-
     /**
      * @var string
-     * @ORM\Column(name="gender", type="string", length=15, nullable=true)
      */
+    #[ORM\Column(name: 'gender', type: 'string', length: 15, nullable: true)]
     private $gender;
 
     //---- --- Getters & Setters : --- ----

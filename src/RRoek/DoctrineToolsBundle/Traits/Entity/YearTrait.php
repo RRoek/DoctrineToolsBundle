@@ -10,12 +10,10 @@ use Doctrine\ORM\Mapping as ORM;
 trait YearTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
     /**
      * @var string
-     *
-     * @ORM\Column(name="year", type="integer", length=5, nullable=false)
      */
+    #[ORM\Column(name: 'year', type: 'integer', length: 5, nullable: false)]
     private $year;
 
     //---- --- Getters & Setters : --- ----

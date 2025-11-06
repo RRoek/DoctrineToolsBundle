@@ -14,16 +14,14 @@ trait SingleFileUploadTrait
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="fileName", type="string", length=255, nullable=true)
      */
+    #[ORM\Column(name: 'fileName', type: 'string', length: 255, nullable: true)]
     protected $fileName;
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="filePath", type="string", length=255, nullable=true)
      */
+    #[ORM\Column(name: 'filePath', type: 'string', length: 255, nullable: true)]
     protected $filePath;
 
     /**

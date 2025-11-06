@@ -11,14 +11,12 @@ use Ramsey\Uuid\UuidInterface;
 trait UuidTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
     /**
      * The internal primary identity key.
      *
      * @var UuidInterface
-     *
-     * @ORM\Column(type="uuid")
      */
+    #[ORM\Column(type: 'uuid')]
     protected $uuid;
 
     /**

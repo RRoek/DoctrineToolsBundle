@@ -10,12 +10,10 @@ use Doctrine\ORM\Mapping as ORM;
 trait IntegerNumberTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
     /**
      * @var string
-     *
-     * @ORM\Column(name="integerNumber", type="integer", nullable=true)
      */
+    #[ORM\Column(name: 'integerNumber', type: 'integer', nullable: true)]
     private $integerNumber;
 
     //---- --- Getters & Setters : --- ----

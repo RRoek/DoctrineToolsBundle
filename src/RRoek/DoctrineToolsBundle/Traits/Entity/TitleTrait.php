@@ -10,12 +10,10 @@ use Doctrine\ORM\Mapping as ORM;
 trait TitleTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
     /**
      * @var string
-     *
-     * @ORM\Column(name="title", type="string", nullable=false)
      */
+    #[ORM\Column(name: 'title', type: 'string', nullable: false)]
     private $title;
 
     //---- --- Getters & Setters : --- ----

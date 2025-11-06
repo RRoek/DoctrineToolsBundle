@@ -10,12 +10,10 @@ use Doctrine\ORM\Mapping as ORM;
 trait FloatNumberTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
     /**
      * @var string
-     *
-     * @ORM\Column(name="floatFloatNumber", type="float", scale=2, nullable=true)
      */
+    #[ORM\Column(name: 'floatFloatNumber', type: 'float', scale: 2, nullable: true)]
     private $floatFloatNumber;
 
     //---- --- Getters & Setters : --- ----

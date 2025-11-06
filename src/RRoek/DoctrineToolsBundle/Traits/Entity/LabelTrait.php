@@ -11,9 +11,8 @@ trait LabelTrait
 {
     /**
      * @var string
-     *
-     * @ORM\Column(name="label", type="string", length=255)
      */
+    #[ORM\Column(name: 'label', type: 'string', length: 255)]
     private $label;
 
     /**

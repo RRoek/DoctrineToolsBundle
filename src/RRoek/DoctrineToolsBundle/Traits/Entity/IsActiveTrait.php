@@ -10,10 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 trait IsActiveTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
-    /**
-     * @ORM\Column(name="is_active", type="boolean")
-     */
+    #[ORM\Column(name: 'is_active', type: 'boolean')]
     private $isActive = false;
 
 

@@ -10,18 +10,16 @@ use Doctrine\ORM\Mapping as ORM;
 trait NameTrait
 {
     //---- --- Private & Protected Properties : --- ----
-
-
     /**
      * @var string
-     * @ORM\Column(name="lastName", type="string", length=255, nullable=false)
      */
+    #[ORM\Column(name: 'lastName', type: 'string', length: 255, nullable: false)]
     private $lastName;
 
     /**
      * @var string
-     * @ORM\Column(name="firstName", type="string", length=255, nullable=true)
      */
+    #[ORM\Column(name: 'firstName', type: 'string', length: 255, nullable: true)]
     private $firstName;
 
 
