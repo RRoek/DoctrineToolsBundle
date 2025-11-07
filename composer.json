@@ -13,7 +13,7 @@
         "php": ">=7.0",
         "doctrine/doctrine-bundle": "^2.8.3 || ^3.0",
         "doctrine/orm": "^2.19 || ^3.0",
-        "symfony/validator": "^5.4.* || ^6.4.*",
+        "symfony/validator": "^5.4 || ^6.4",
         "stof/doctrine-extensions-bundle": ">=1.7.1",
         "gedmo/doctrine-extensions": ">=3.11.0",
         "ramsey/uuid-doctrine": ">=2.0.0"
